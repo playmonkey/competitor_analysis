@@ -1,1 +1,9 @@
 
+
+Search tool with Gemini 2.0
+
+In this tutorial you are going to leverage the latest search tool of the Gemini 2.0 model to write a company report. Note that the search tool is a paid ony feature and this tutorial does not work with a free tier API key.
+
+You may be asking, why does one need to use the search tool for this purpose? Well, as you may be aware, today's business world evolves very fast and LLMs generally are not trained frequently enough to capture the latest updates. Luckily Google search comes to the rescue. Google search is built to provide accurate and nearly realtime information and can help us fulfill this task perfectly.
+
+Note that while Gemini 1.5 models offered the search grounding feature which may also help you achieve similar results (see a previous notebook using search grounding), the new search tool in Gemini 2.0 models is much more powerful and easier to use, and should be prioritized over search grounding. It is also possible to use multiple tools together (for example, search tool and function calling).
